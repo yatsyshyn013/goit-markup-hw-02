@@ -101,6 +101,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+  border: none;
 }
 
 .hero-button:hover,
@@ -110,6 +111,11 @@ body {
 }
 
 /* Наши преимущества */
+
+.hidden-section-title {
+  opacity: 0;
+}
+
 .benefits-section .benefits-title {
   font-weight: 700;
   font-size: 14px;
