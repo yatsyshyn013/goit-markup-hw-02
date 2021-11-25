@@ -11,6 +11,7 @@ body {
   color: var(--primary-text-color);
 
   font-family: Roboto, sans-serif;
+  font-weight: 400;
 }
 
 ul,
@@ -18,10 +19,19 @@ ol {
   list-style: none;
 }
 
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 /* Лого */
+
 .logo {
   color: #000;
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -66,6 +76,7 @@ ol {
   color: var(--accent-color);
 }
 
+/* Стили файла index.html */
 /* Герой */
 .hero {
   background-color: var(--secondary-bg-color);
@@ -87,4 +98,69 @@ ol {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+}
+
+/* Наши преимущества */
+.benefits-section .benefits-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.benefits-section .benefits-description {
+  color: var(--description-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+/* Чем мы занимаемся*/
+
+/* Наша команда */
+.team-list .team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.team-list .team-description {
+  color: var(--description-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+/* Футер */
+.footer {
+  background-color: var(--secondary-bg-color);
+}
+
+.logo-white {
+  color: #fff;
+}
+
+.address .address-text {
+  color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.address .address-item {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
